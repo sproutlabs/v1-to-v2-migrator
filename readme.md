@@ -110,6 +110,13 @@ Param | Description
 `target.documentStorage.s3.accessKeyId` | AWS access key ID
 `target.documentStorage.s3.secretAccessKey` | AWS secret access key
 
+## Before running
+
+Before starting the migrater bring up local MongoDB instance.
+
+```
+docker-compose up -d
+```
 
 ## Command
 
